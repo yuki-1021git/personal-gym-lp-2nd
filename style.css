@@ -47,7 +47,7 @@ body {
 /* ===== HERO ===== */
 .hero {
   background: var(--green-dark);
-  padding: 80px 150px 72px;
+  padding: 80px 24px 72px;
   text-align: left;
   position: relative;
   overflow: hidden;
@@ -71,7 +71,9 @@ body {
   z-index: -1;
 }
 
-.hero > * {
+.hero-inner {
+  max-width: 720px;
+  margin: 0 auto;
   position: relative;
   z-index: 1;
 }
