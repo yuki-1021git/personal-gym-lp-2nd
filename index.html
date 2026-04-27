@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>自分で2店舗目を出さずに、事業を展開するという考え方について</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;600;700&family=Noto+Sans+JP:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <p class="header-note">パーソナルジム経営者の方へ ― DMの補足資料です</p>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-label">SUPPLEMENT PAGE</div>
+    <h1>自分で2店舗目を出さずに、<br><span>事業を展開するという考え方について</span></h1>
+    <p class="hero-desc">このページは、パーソナルジムを個人経営されている方に向けた補足資料です。先ほどのメッセージで触れた「2店舗目を出すことへのリスク」や「既存事業の利益を、別の形で回していきたい」という声について、もう少し整理した内容をまとめています。</p>
+  </section>
+
+  <!-- SECTION 1: 背景・課題 -->
+  <section class="problem-section bg-pale">
+    <div class="problem-inner fade-in">
+      <span class="section-label">BACKGROUND</span>
+      <h2>2店舗目を検討する中で、よく出てくる課題</h2>
+      <p>個人でジムを経営されているトレーナーの方から、特に多く聞くのが次のような点です。</p>
+
+      <ul class="problem-list">
+        <li>
+          <span class="problem-icon"></span>
+          2店舗目の出店はコストやリスクが大きい
+        </li>
+        <li>
+          <span class="problem-icon"></span>
+          出店自体は可能だが、人材リスクが一番大きい
+        </li>
+        <li>
+          <span class="problem-icon"></span>
+          2店舗目に配属したトレーナーの独立が不安
+        </li>
+        <li>
+          <span class="problem-icon"></span>
+          結果として、出店を中断・保留している
+        </li>
+        <li>
+          <span class="problem-icon"></span>
+          それでも、既存事業の利益を投資に回していきたい
+        </li>
+      </ul>
+
+      <div class="quote-block">
+        <p>「2店舗目を出すのはコストもリスクも大きい。出店することは可能だが、2店舗目で配属したトレーナーが独立してしまうリスクが一番大きく、出店を躊躇している。ただ、既存事業の利益を新たな投資金としてお金は回していきたい」</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 2: 弊社の立場 -->
+  <section class="section fade-in">
+    <span class="section-label">OUR POSITION</span>
+    <h2>同じ健康産業の立場から考えてきたこと</h2>
+    <div class="divider"></div>
+
+    <p>弊社もストレッチ専門店として、同じ健康産業の中で事業を展開してきました。</p>
+    <p>その中で、<strong>同種事業者様と提携する形で関わることで、出店リスクを取らずに事業を広げる</strong>というモデルを検討・構築してきました。</p>
+
+    <div class="fact-card">
+      <h3>「自分では出店しない形で事業に関わる」という選択肢</h3>
+      <p>既存事業を持ちながら、リスクを最小化した形で事業展開を考えるーーそのための具体的な関わり方が、実際に動き始めています。</p>
+    </div>
+  </section>
+
+  <!-- SECTION 3: 事例 -->
+  <section class="problem-section bg-pale">
+    <div class="problem-inner fade-in">
+      <span class="section-label">CASE</span>
+      <h2>すでに動いている事例も出始めています</h2>
+
+      <p>実際に、すでにパーソナルジムをご経営されている企業様とこうした形で関わっている事例もあります。</p>
+
+      <div class="case-box">
+        <div class="case-tag">CASE EXAMPLE</div>
+        <h3>このページでは詳細には踏み込みません</h3>
+        <p>「自分では出店しない形で事業に関わる」という選択肢がある、という点だけお伝えできればと思います。<br><br>具体的な内容や事例の詳細については、ご関心をお持ちいただいた方と直接お話しする場でお伝えしています。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA SECTION -->
+  <section class="cta-section">
+    <div class="cta-inner fade-in">
+      <h2>お願いや勧誘ではありません</h2>
+      <p class="cta-note">この内容は、何かへの参加やご判断をお願いするものではありません。<br>「こういう考え方・関わり方も実際にある」という情報共有としてご覧ください。<br><br>もし、「自分の状況だとどう考えればいいのか」「もう少し背景だけ知りたい」と感じられた場合は、概要だけでもご確認ください。</p>
+
+      <a href="#" class="cta-btn">概要だけ聞いてみる（情報共有）</a>
+
+      <div class="cta-caution">
+        <p>※ 売り込みや営業目的のご連絡は行いません</p>
+        <p>※ ご興味がなければスルーしていただいて問題ありません</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© Balance Stretch. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => {
+      observer.observe(el);
+    });
+  </script>
+
+</body>
+</html>
